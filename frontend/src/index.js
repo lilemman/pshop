@@ -11,17 +11,16 @@ import {
 } from "react-router-dom";
 import App from "./App";
 import HomeScreen from "./Pages/HomeScreen/HomeScreen";
+import ProductScreen from "./Pages/ProductScreen/ProductScreen";
 
-
-const router=createBrowserRouter(
+const router = createBrowserRouter(
   createRoutesFromElements(
-     <Route path='/' element={<App />}>
-      <Route index={true} path='/' element={<HomeScreen />} />
-      /</Route>
-
+    <Route path="/" element={<App />}>
+      <Route index={true} path="/" element={<HomeScreen />} />
+      <Route path="/product/:id" element={<ProductScreen />} />/
+    </Route>
   )
-  
-)
+);
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
