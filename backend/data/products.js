@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Air Jordan Low SE",
     image: "/images/aj-low.jpg",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "2",
     name: "Air Jordan 1 Mid",
     image: "/images/nike-md-1.jpg",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "3",
     name: "Nike Go FlyEase",
     image: "/images/fly.jpg",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "4",
     name: "Tech Fleece Windrunner",
     image: "/images/sw-flee.jpg",
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "5",
     name: "Nike Sportswear ",
     image: "/images/nike.jpeg",
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "6",
     name: "Nike Sportswear Therma-FIT",
     image: "/images/therma.png",
     description:
@@ -78,7 +72,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "7",
     name: "Nike Sportswear Therma-FIT",
     image: "/images/um.jpeg",
     description:
@@ -91,7 +84,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "8",
     name: "UA Hustle 5.0 Backpack",
     image: "/images/umbag.jpg",
     description:
